@@ -1,0 +1,154 @@
+body {
+  background-color: #EBEBEB;
+}
+
+h1 {
+  color: #C71525;
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+}
+
+h2, h3, p {
+  color: #626261;
+}
+
+
+h2,
+h3 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 15px;
+
+}
+
+h2, h3, p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #868686;
+  text-decoration: none;
+}
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #323D54;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+a:hover {
+  color: #C71525;
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.list-inline li i{
+  font-size: 30px;
+}
+
+.container {
+  margin: 30px auto;
+  width: 500px;
+}/* Here goes your CSS */
+
+.card {
+  background: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #D0D0D0;
+  box-shadow: 5px 5px 3px #DFDFDE;
+
+}
+
+.white-hover:hover{
+  color: white;
+}
+
+.side-menu {
+  color: #788188;
+  font-size: 30px;
+  margin: 30px auto;
+
+}
+.rounded-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #D0D0D0
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.width-80 {
+  width: 80px;
+}
+
+.padding-10 {
+  padding-left: 10px;
+}
+
+.bottom-margin-10 {
+  padding: 10px 0 10px 0;
+}
+
+#favorite-movies {
+  padding-bottom: 10px;
+}
+
+#wrapper {
+  width: 1000px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #E3E6FA;
+}
+
+#left-container {
+  width: 450px;
+  float: left;
+}
+
+#right-container {
+  width: 520px;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 1000px;
+}
+
